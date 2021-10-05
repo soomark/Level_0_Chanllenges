@@ -8,13 +8,8 @@ def area_calculation(x, p, u):
     return area
 
 
-# User input values
-a = int(input("Enter 1st length: "))
-b = int(input("Enter 2nd length: "))
-c = int(input("Enter 3rd length: "))
-
 # call function
-area_of_triangle = area_calculation(a, b, c)
+area_of_triangle = area_calculation(10, 10, 10)
 
 # Output
 print("Area of Triangle is " + str(area_of_triangle))
