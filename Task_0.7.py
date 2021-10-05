@@ -10,18 +10,14 @@ def fahr(f):
     return celsius
 
 
-#Input of values
-x = float(input("Enter Celsius number: "))
-y = float(input("Enter Fahrenheit number: "))
-
 # call function convert Celsius to Fahrenheit
-x1 = celc(x)
+x = celc(20)
 
 # call function convert Fahrenheit to Celsius
-y1 = fahr(y)
+y = fahr(20)
 
 # Celsius to Fahrenheit Output
-print(str(x) + " degree Celsius is equal to " + str(x1) + " degree Fahrenheit")
+print("degree Celsius is equal to " + str(x) + " degree Fahrenheit")
 
 # Fahrenheit to Celsius Output
-print(str(y) + " degree Fahrenheit is equal to " + str(y1) + " degree Celsius")
+print("degree Fahrenheit is equal to " + str(y) + " degree Celsius")
