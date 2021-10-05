@@ -18,7 +18,6 @@ def maximum(num1, num2, num3):
 
 
 # call function
-value = maximum(1, 2, 3)
+value = maximum(1, 15, 3)
 
-# Output
 print("Largest value is " + str(value))
