@@ -2,9 +2,10 @@
 def printvowels(word):
     # to print the vowels
     for char in word:
-        if char in "aeiouAEIOU":
+        if char in "aeiou":
             print(char, end=', ')
+    return char
 
 
-word1 = input("Entre the string: ")
-printvowels(word1)
+w1 = "Umuzi"
+printvowels(w1)
