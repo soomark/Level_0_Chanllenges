@@ -1,8 +1,9 @@
-# Function converts any number to hours and minutes
+# Function converts any number to hour and minutes
 def any_number(num):
     h = num // 60
     m = num % 60
-    print(h, 'hours', m, 'minutes')
+
+    print('\"', h, 'hours,', m, 'minutes\"')
 
 
 n = 133
