@@ -1,10 +1,11 @@
 # Function prints vowels in a string
 def printvowels(word):
-    # to print the vowels
-    for char in word:
-        if char in "aeiou":
-            print(char, end=', ')
-    return char
+    letters = ''
+    print(end='Vowels: ')
+    for x in word:
+        if x in 'aeiou':
+            letters += x + ','
+    print(letters[:len(letters) - 1])
 
 
 w1 = "Umuzi"
