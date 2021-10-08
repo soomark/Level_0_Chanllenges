@@ -1,23 +1,16 @@
-#Function hat takes in three numbers and returns the maximum number
+#Function hat takes in any three numbers and returns the maximum number
 def maximum(num1, num2, num3):
-    largest = 0
-    if num1 > num2:
-        if num1 > num3:
-            largest = num1
-        else:
-            largest = num3
+    if (num1 >= num2) and (num1 >= num3):
+        largest = num1
+    elif (num2 >= num1) and (num2 >= num3):
+        largest = num2
     else:
-        if num2 > num3:
-            largest = num2
+        largest = num3
 
-        else:
-            largest = num3
-
-        # Display the largest number
-        return largest
+    return largest
 
 
 # call function
-value = maximum(1, 15, 3)
+value = maximum(-3, -2, -5)
 
 print(f'Largest value is {value}')
