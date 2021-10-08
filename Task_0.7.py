@@ -17,7 +17,7 @@ x = celc(20)
 y = fahr(20)
 
 # Celsius to Fahrenheit Output
-print("degree Celsius is equal to " + str(x) + " degree Fahrenheit")
+print(f"degree Celsius is equal to {x} degree Fahrenheit")
 
 # Fahrenheit to Celsius Output
-print("degree Fahrenheit is equal to " + str(y) + " degree Celsius")
+print(f"degree Fahrenheit is equal to {y} degree Celsius")
