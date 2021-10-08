@@ -12,4 +12,4 @@ def area_calculation(x, p, u):
 area_of_triangle = area_calculation(10, 10, 10)
 
 # Output
-print("Area of Triangle is " + str(area_of_triangle))
+print(f'Area of Triangle is {area_of_triangle}')
