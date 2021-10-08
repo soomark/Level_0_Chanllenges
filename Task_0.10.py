@@ -16,7 +16,7 @@ def common_letters(word1, word2):
 	return result
 
 
-wordA = "house"
-wordB = "computers"
+wordA = "CompuTers"
+wordB = "HouSe"
 result = common_letters(wordA, wordB)
-print(" 'Common letters:", result[:len(result) - 2] + '\'')
+print("Common letters:", result.lower()[:len(result) - 2])
