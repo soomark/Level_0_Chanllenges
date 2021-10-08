@@ -20,4 +20,4 @@ def maximum(num1, num2, num3):
 # call function
 value = maximum(1, 15, 3)
 
-print("Largest value is " + str(value))
+print(f'Largest value is {value}')
