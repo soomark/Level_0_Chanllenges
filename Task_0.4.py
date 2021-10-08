@@ -1,9 +1,9 @@
 # Function to check if number is either even or odd
 def even_odd(number):
     if number % 2 == 0:
-        print('\"', 'even', '\"', )
+        print('even')
     else:
-        print('\"', 'odd', '\"')
+        print('odd')
 
 
 n = 5
