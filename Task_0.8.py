@@ -3,8 +3,8 @@ def any_number(num):
     h = num // 60
     m = num % 60
 
-    print(h, 'hours,', m, 'minutes')
+    print(h, 'hour,', m, 'minute')
 
 
-n = 60
+n = 61
 any_number(n)
