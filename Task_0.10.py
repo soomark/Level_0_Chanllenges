@@ -13,10 +13,10 @@ def common_letters(word1, word2):
 		for i in s2:
 			if i.lower() in s1.lower():
 				result += i + ', '
-	return result
+	
+	print("Common letters:", result.lower()[:len(result) - 2])
 
 
 wordA = "CompuTers"
 wordB = "HouSe"
 result = common_letters(wordA, wordB)
-print("Common letters:", result.lower()[:len(result) - 2])
